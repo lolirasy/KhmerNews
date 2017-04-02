@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4DDB8A4F89CEC6D4C47ECE6 /* Pods_Khmer_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACB03E275E82A7569B5EFA5 /* Pods_Khmer_News.framework */; };
+		DF184D871DB9D6A700603146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF184D861DB9D6A700603146 /* AppDelegate.swift */; };
+		DF184D891DB9D6A700603146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF184D881DB9D6A700603146 /* ViewController.swift */; };
+		DF184D8F1DB9D6A700603146 /* Khmer_News.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF184D8D1DB9D6A700603146 /* Khmer_News.xcdatamodeld */; };
+		DF184D911DB9D6A700603146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF184D901DB9D6A700603146 /* Assets.xcassets */; };
+		DF184D941DB9D6A700603146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF184D921DB9D6A700603146 /* LaunchScreen.storyboard */; };
+		DF184D9D1DB9D95500603146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF184D9B1DB9D95500603146 /* Main.storyboard */; };
+		DF184DA21DB9D9B300603146 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF184DA11DB9D9B300603146 /* SWRevealViewController.m */; };
+		DF184DA41DB9DA4200603146 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF184DA31DB9DA4200603146 /* MenuController.swift */; };
+		DF184DB41DB9EDAB00603146 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF184DB31DB9EDAB00603146 /* HomeCollectionViewCell.swift */; };
+		DF184DB61DB9EDCE00603146 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF184DB51DB9EDCE00603146 /* HomeViewController.swift */; };
+		DF184DB81DB9F01800603146 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF184DB71DB9F01800603146 /* GoogleService-Info.plist */; };
+		DF184DBC1DB9F07200603146 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF184DBB1DB9F07200603146 /* News.swift */; };
+		DF4A3BC11DBDEB0A00B1BC4D /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A3BC01DBDEB0A00B1BC4D /* NewsViewController.swift */; };
+		DF7D9D3F1DBDF88C00EF3BA1 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D9D3D1DBDF88C00EF3BA1 /* MediaViewController.swift */; };
+		DF7D9D401DBDF88C00EF3BA1 /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D9D3E1DBDF88C00EF3BA1 /* TechViewController.swift */; };
+		DFB4A2C91DBB53A1000A8F7C /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4A2C71DBB53A1000A8F7C /* SocialViewController.swift */; };
+		DFB4A2CA1DBB53A1000A8F7C /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4A2C81DBB53A1000A8F7C /* SportViewController.swift */; };
+		DFD909E91DC4610800FCC03B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD909E81DC4610800FCC03B /* Bolts.framework */; };
+		DFD909EC1DC4611C00FCC03B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD909EA1DC4611C00FCC03B /* FBSDKCoreKit.framework */; };
+		DFD909ED1DC4611C00FCC03B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD909EB1DC4611C00FCC03B /* FBSDKLoginKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49EBDBB29ADF5BD5E4678159 /* Pods-Khmer News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer News.release.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer News/Pods-Khmer News.release.xcconfig"; sourceTree = "<group>"; };
+		AACB03E275E82A7569B5EFA5 /* Pods_Khmer_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Khmer_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A8915D6A96E48F87959D2A /* Pods-Khmer News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer News/Pods-Khmer News.debug.xcconfig"; sourceTree = "<group>"; };
+		DF018F5A1DC320E7005E4EDE /* Khmer News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Khmer News.entitlements"; sourceTree = "<group>"; };
+		DF184D831DB9D6A700603146 /* Khmer News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khmer News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF184D861DB9D6A700603146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF184D881DB9D6A700603146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF184D8E1DB9D6A700603146 /* Khmer_News.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Khmer_News.xcdatamodel; sourceTree = "<group>"; };
+		DF184D901DB9D6A700603146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF184D931DB9D6A700603146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF184D951DB9D6A700603146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF184D9C1DB9D95500603146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF184D9F1DB9D9B300603146 /* Khmer News-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Khmer News-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF184DA01DB9D9B300603146 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DF184DA11DB9D9B300603146 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DF184DA31DB9DA4200603146 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		DF184DB31DB9EDAB00603146 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF184DB51DB9EDCE00603146 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF184DB71DB9F01800603146 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF184DBB1DB9F07200603146 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		DF4A3BC01DBDEB0A00B1BC4D /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		DF7D9D3D1DBDF88C00EF3BA1 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		DF7D9D3E1DBDF88C00EF3BA1 /* TechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
+		DFB4A2C71DBB53A1000A8F7C /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		DFB4A2C81DBB53A1000A8F7C /* SportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportViewController.swift; sourceTree = "<group>"; };
+		DFD909E81DC4610800FCC03B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		DFD909EA1DC4611C00FCC03B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DFD909EB1DC4611C00FCC03B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF184D801DB9D6A700603146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DDB8A4F89CEC6D4C47ECE6 /* Pods_Khmer_News.framework in Frameworks */,
+				DFD909EC1DC4611C00FCC03B /* FBSDKCoreKit.framework in Frameworks */,
+				DFD909ED1DC4611C00FCC03B /* FBSDKLoginKit.framework in Frameworks */,
+				DFD909E91DC4610800FCC03B /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63CC1C0C8F1C7818DB211AB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACB03E275E82A7569B5EFA5 /* Pods_Khmer_News.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55041D2ECC5073A2279BFBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5A8915D6A96E48F87959D2A /* Pods-Khmer News.debug.xcconfig */,
+				49EBDBB29ADF5BD5E4678159 /* Pods-Khmer News.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF184D7A1DB9D6A700603146 = {
+			isa = PBXGroup;
+			children = (
+				DF184D851DB9D6A700603146 /* Khmer News */,
+				DF184D841DB9D6A700603146 /* Products */,
+				C55041D2ECC5073A2279BFBF /* Pods */,
+				63CC1C0C8F1C7818DB211AB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF184D841DB9D6A700603146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF184D831DB9D6A700603146 /* Khmer News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF184D851DB9D6A700603146 /* Khmer News */ = {
+			isa = PBXGroup;
+			children = (
+				DF018F5A1DC320E7005E4EDE /* Khmer News.entitlements */,
+				DF184D9E1DB9D9A500603146 /* SWReveal */,
+				DF184D861DB9D6A700603146 /* AppDelegate.swift */,
+				DF184DBB1DB9F07200603146 /* News.swift */,
+				DF184DA31DB9DA4200603146 /* MenuController.swift */,
+				DF184D881DB9D6A700603146 /* ViewController.swift */,
+				DF184DB51DB9EDCE00603146 /* HomeViewController.swift */,
+				DF184DB31DB9EDAB00603146 /* HomeCollectionViewCell.swift */,
+				DF7D9D3D1DBDF88C00EF3BA1 /* MediaViewController.swift */,
+				DF7D9D3E1DBDF88C00EF3BA1 /* TechViewController.swift */,
+				DFB4A2C71DBB53A1000A8F7C /* SocialViewController.swift */,
+				DFB4A2C81DBB53A1000A8F7C /* SportViewController.swift */,
+				DF184D9B1DB9D95500603146 /* Main.storyboard */,
+				DF184D901DB9D6A700603146 /* Assets.xcassets */,
+				DF184DB71DB9F01800603146 /* GoogleService-Info.plist */,
+				DF184D921DB9D6A700603146 /* LaunchScreen.storyboard */,
+				DF184D951DB9D6A700603146 /* Info.plist */,
+				DF184D8D1DB9D6A700603146 /* Khmer_News.xcdatamodeld */,
+				DF4A3BC01DBDEB0A00B1BC4D /* NewsViewController.swift */,
+			);
+			path = "Khmer News";
+			sourceTree = "<group>";
+		};
+		DF184D9E1DB9D9A500603146 /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				DFD909EA1DC4611C00FCC03B /* FBSDKCoreKit.framework */,
+				DFD909EB1DC4611C00FCC03B /* FBSDKLoginKit.framework */,
+				DFD909E81DC4610800FCC03B /* Bolts.framework */,
+				DF184DA01DB9D9B300603146 /* SWRevealViewController.h */,
+				DF184DA11DB9D9B300603146 /* SWRevealViewController.m */,
+				DF184D9F1DB9D9B300603146 /* Khmer News-Bridging-Header.h */,
+			);
+			name = SWReveal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF184D821DB9D6A700603146 /* Khmer News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF184D981DB9D6A700603146 /* Build configuration list for PBXNativeTarget "Khmer News" */;
+			buildPhases = (
+				B460051B15B6CBB56C6632A1 /* [CP] Check Pods Manifest.lock */,
+				DF184D7F1DB9D6A700603146 /* Sources */,
+				DF184D801DB9D6A700603146 /* Frameworks */,
+				DF184D811DB9D6A700603146 /* Resources */,
+				DCB70370417ECEC7155BC157 /* [CP] Embed Pods Frameworks */,
+				1EB93D9C30842E1EB3621F3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khmer News";
+			productName = "Khmer News";
+			productReference = DF184D831DB9D6A700603146 /* Khmer News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF184D7B1DB9D6A700603146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ភី ម៉ារ៉ាសុី";
+				TargetAttributes = {
+					DF184D821DB9D6A700603146 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZUNYJ43SN4;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DF184D7E1DB9D6A700603146 /* Build configuration list for PBXProject "Khmer News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF184D7A1DB9D6A700603146;
+			productRefGroup = DF184D841DB9D6A700603146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF184D821DB9D6A700603146 /* Khmer News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF184D811DB9D6A700603146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF184D9D1DB9D95500603146 /* Main.storyboard in Resources */,
+				DF184D941DB9D6A700603146 /* LaunchScreen.storyboard in Resources */,
+				DF184D911DB9D6A700603146 /* Assets.xcassets in Resources */,
+				DF184DB81DB9F01800603146 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB93D9C30842E1EB3621F3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Khmer News/Pods-Khmer News-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B460051B15B6CBB56C6632A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB70370417ECEC7155BC157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Khmer News/Pods-Khmer News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF184D7F1DB9D6A700603146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF184DB41DB9EDAB00603146 /* HomeCollectionViewCell.swift in Sources */,
+				DF184DA41DB9DA4200603146 /* MenuController.swift in Sources */,
+				DF4A3BC11DBDEB0A00B1BC4D /* NewsViewController.swift in Sources */,
+				DF184DBC1DB9F07200603146 /* News.swift in Sources */,
+				DFB4A2CA1DBB53A1000A8F7C /* SportViewController.swift in Sources */,
+				DF184D891DB9D6A700603146 /* ViewController.swift in Sources */,
+				DF184D871DB9D6A700603146 /* AppDelegate.swift in Sources */,
+				DF7D9D3F1DBDF88C00EF3BA1 /* MediaViewController.swift in Sources */,
+				DF184D8F1DB9D6A700603146 /* Khmer_News.xcdatamodeld in Sources */,
+				DFB4A2C91DBB53A1000A8F7C /* SocialViewController.swift in Sources */,
+				DF7D9D401DBDF88C00EF3BA1 /* TechViewController.swift in Sources */,
+				DF184DB61DB9EDCE00603146 /* HomeViewController.swift in Sources */,
+				DF184DA21DB9D9B300603146 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF184D921DB9D6A700603146 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF184D931DB9D6A700603146 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF184D9B1DB9D95500603146 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF184D9C1DB9D95500603146 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF184D961DB9D6A700603146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF184D971DB9D6A700603146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF184D991DB9D6A700603146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A8915D6A96E48F87959D2A /* Pods-Khmer News.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Khmer News/Khmer News.entitlements";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+				);
+				INFOPLIST_FILE = "Khmer News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RasySwagneel.Khmer-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Khmer News/Khmer News-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF184D9A1DB9D6A700603146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EBDBB29ADF5BD5E4678159 /* Pods-Khmer News.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Khmer News/Khmer News.entitlements";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer",
+					News,
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+					"$(PROJECT_DIR)/Khmer\\ News",
+				);
+				INFOPLIST_FILE = "Khmer News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RasySwagneel.Khmer-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Khmer News/Khmer News-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF184D7E1DB9D6A700603146 /* Build configuration list for PBXProject "Khmer News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF184D961DB9D6A700603146 /* Debug */,
+				DF184D971DB9D6A700603146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF184D981DB9D6A700603146 /* Build configuration list for PBXNativeTarget "Khmer News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF184D991DB9D6A700603146 /* Debug */,
+				DF184D9A1DB9D6A700603146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF184D8D1DB9D6A700603146 /* Khmer_News.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF184D8E1DB9D6A700603146 /* Khmer_News.xcdatamodel */,
+			);
+			currentVersion = DF184D8E1DB9D6A700603146 /* Khmer_News.xcdatamodel */;
+			path = Khmer_News.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF184D7B1DB9D6A700603146 /* Project object */;
+}
